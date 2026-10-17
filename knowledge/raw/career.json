@@ -1,0 +1,22 @@
+[
+  {
+    "id": "career-high-traffic-go-kafka",
+    "category": "career",
+    "title": "Yüksek trafikli sistem deneyimi",
+    "content": "Yüksek trafikli sistemlerde Kafka ve Go kullandım.",
+    "tags": ["Go", "Kafka", "yüksek trafik"],
+    "metadata": {
+      "priority": 1
+    }
+  },
+  {
+    "id": "architecture-event-driven-systems",
+    "category": "architecture",
+    "title": "Sistem mimarisi",
+    "content": "Yüksek trafikli sistemlerde Kafka ve Go kullanma deneyimimi, sistem mimarisi kararlarını açıklarken paylaşırım.",
+    "tags": ["mimari", "Kafka", "Go"],
+    "metadata": {
+      "priority": 2
+    }
+  }
+]

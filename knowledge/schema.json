@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://interactive-cv.example/schemas/knowledge-chunk.json",
+  "title": "Knowledge chunk",
+  "type": "object",
+  "required": ["id", "category", "title", "content", "tags"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "enum": ["career", "architecture", "lifestyle", "projects"]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "content": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "timeline": {"type": "string"},
+        "priority": {"type": "integer"}
+      },
+      "additionalProperties": false
+    },
+    "embedding": {
+      "type": "array",
+      "items": {"type": "number"}
+    }
+  },
+  "additionalProperties": false
+}
