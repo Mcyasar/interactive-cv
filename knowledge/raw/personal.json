@@ -1,0 +1,22 @@
+[
+  {
+    "id": "lifestyle-independent-radio",
+    "category": "lifestyle",
+    "title": "Müzik ve bağımsız radyo",
+    "content": "KEXP gibi bağımsız radyoları dinlerim ve bağımsız radyo kültürünü severim.",
+    "tags": ["müzik", "KEXP", "bağımsız radyo"],
+    "metadata": {
+      "priority": 2
+    }
+  },
+  {
+    "id": "lifestyle-working-principles",
+    "category": "lifestyle",
+    "title": "Çalışma prensiplerim ve vizyonum",
+    "content": "Çalışırken açık, doğrulanabilir bilgiye ve işe yarayan çözümlere önem veririm. Teknolojiyi insanların ihtiyaçlarını karşılayan, anlaşılır sistemler kurmak için kullanmayı hedeflerim.",
+    "tags": ["çalışma prensipleri", "vizyon", "açıklık"],
+    "metadata": {
+      "priority": 1
+    }
+  }
+]
